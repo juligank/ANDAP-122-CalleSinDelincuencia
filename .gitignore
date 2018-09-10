@@ -1,0 +1,20 @@
+# Ignore Api
+/BackEnd/app-fedesoft-api/.bundle
+# Ignore the default SQLite database.
+/BackEnd/app-fedesoft-api/db/*.sqlite3
+/BackEnd/app-fedesoft-api/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/BackEnd/app-fedesoft-api/log/*
+/BackEnd/app-fedesoft-api/tmp/*
+/BackEnd/app-fedesoft-api/!/log/.keep
+/BackEnd/app-fedesoft-api/!/tmp/.keep
+
+# Ignore uploaded files in development
+/BackEnd/app-fedesoft-api/storage/*
+/BackEnd/app-fedesoft-api/!/storage/.keep
+
+/BackEnd/app-fedesoft-api/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/BackEnd/app-fedesoft-api/config/master.key
