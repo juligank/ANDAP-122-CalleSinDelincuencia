@@ -1,12 +1,16 @@
 <ion-header>
+
   <ion-navbar>
     <ion-title>Login</ion-title>
   </ion-navbar>
+
 </ion-header>
+
+
 <ion-content padding>
   <ion-card center>
     <ion-card-header>
-      Datos del usuario     
+      Datos del usuario
     </ion-card-header>
     <ion-card-content>
       <ion-list>
@@ -19,11 +23,11 @@
           <ion-input type="password" [(ngModel)]="password"></ion-input>
         </ion-item>
       </ion-list>
-      <div>
+      <div padding>
         <button ion-button block (click)="Ingresar()">Ingresar</button>
       </div>
-      <div>
-        <button ion-button clear block (click)="Registro()">Registrarme</button>
+      <div padding>
+        <button ion-button block (click)="Registro()">Registrarme</button>
       </div>
     </ion-card-content>
   </ion-card>

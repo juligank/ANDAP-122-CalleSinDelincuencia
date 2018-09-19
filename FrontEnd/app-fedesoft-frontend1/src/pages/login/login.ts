@@ -1,7 +1,13 @@
-import { HomePage } from './../home/home';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { RegistryPage } from '../registry/registry';
+import { TabsPage } from '../tabs/tabs';
+import { RegistroPage } from '../registro/registro';
+/**
+ * Generated class for the LoginPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
 
 @IonicPage()
 @Component({
@@ -15,10 +21,10 @@ export class LoginPage {
   }
 
   Ingresar() {
-    this.navCtrl.setRoot(HomePage)
+    this.navCtrl.setRoot(TabsPage)
   }
   Registro(){
-    this.navCtrl.setRoot(RegistryPage)
+    this.navCtrl.setRoot(RegistroPage)
   }
 
 
